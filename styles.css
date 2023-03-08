@@ -1,0 +1,186 @@
+#title {
+  font-size: 2.5em;
+  margin: 0px auto;
+}
+
+header {
+  background-color: black;
+}
+
+#title,
+.navigation-container {
+  padding: 0.2em;
+}
+
+#title,
+.body {
+  color: white;
+  overflow-wrap: break-word;
+}
+
+.body {
+  margin: 0px auto;
+  font-family: "Barlow", sans-serif;
+
+  align-items: center;
+  text-align: center;
+  color: black;
+}
+
+.navigation-container {
+  border-color: pink;
+  padding: 0.8em;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: block;
+  padding: 0.5em;
+  gap: 1em;
+  margin: auto;
+  font-size: 1.1em;
+  color: white;
+}
+
+a:visited {
+  color: pink;
+}
+
+li:not(:last-child) {
+  border-bottom: 1px dotted #a190b6;
+}
+
+h2 {
+  font-size: 1.8em;
+  padding: 0.3em;
+  font-weight: bolder;
+  padding-bottom: 1rem;
+}
+
+h1,
+h2 {
+  margin: 0em auto;
+  overflow-wrap: break-word;
+}
+
+h3 {
+  margin: 0em auto 0.5em auto;
+  padding: 0.1em;
+  overflow-wrap: break-word;
+}
+.photos-container {
+  width: 48%;
+}
+
+img {
+  border-radius: 1em;
+  width: 18em;
+  height: auto;
+}
+
+.caption {
+  font-size: 2em;
+  margin: 0em;
+  color: black;
+}
+
+button {
+  display: block;
+  width: 80%;
+  padding: 0.5em;
+  margin: 1em auto 1em auto;
+  font-size: 1.1em;
+  background-color: black;
+  color: pink;
+  border-width: 0.3rem;
+  border-color: pink;
+  border-radius: 1em;
+  font-weight: 700;
+}
+
+button:hover {
+  padding-right: 25px;
+}
+
+.photos-container {
+  margin: 1em auto auto auto;
+  padding-bottom: 1em;
+}
+
+.fun-fact-container {
+  background-color: pink;
+  margin: 1em auto auto auto;
+  padding-bottom: 1em;
+}
+
+.food-paradise-container {
+  background-color: pink;
+  padding: ;
+}
+
+footer {
+  margin: 0px;
+  color: pink;
+  background-color: black;
+  padding: 0;
+}
+
+@media (min-width: 800px) {
+  .body header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #title {
+    margin: auto;
+  }
+
+  h1,
+  h2,
+  h3 {
+    width: 80%;
+  }
+
+  button {
+    display: inline-block;
+    align-content: flex-start;
+    width: 20%;
+    padding: 0.5em;
+    margin: 1em;
+    font-size: 1.1em;
+    background-color: black;
+    color: pink;
+    border-width: 0.3rem;
+    border-color: pink;
+    border-radius: 1em;
+    font-weight: 700;
+  }
+
+  li {
+    display: block;
+    padding: 0.5em;
+    gap: 1em;
+    margin: auto;
+    font-size: 1.1em;
+    color: white;
+  }
+
+  img {
+    padding: 0.2em;
+  }
+
+  .food-paradise-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .caption {
+    margin: 0;
+  }
+  .feature-item {
+    flex: 1 260px;
+  }
+}
